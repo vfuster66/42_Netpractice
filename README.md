@@ -17,6 +17,35 @@ Cela aide à organiser un grand réseau en plus petits sous-réseaux pour améli
 ```
 Méthode pour allouer des adresses IP et router les messages.
 Remplace l'ancien système de classes d'adresses IP, permettant une allocation plus flexible et efficace des adresses IP.
+
+    /32 : 255.255.255.255 (Un seul hôte)
+    /31 : 255.255.255.254 (Deux hôtes)
+    /30 : 255.255.255.252 (Quatre hôtes)
+    /29 : 255.255.255.248 (Huit hôtes)
+    /28 : 255.255.255.240 (Seize hôtes)
+    /27 : 255.255.255.224 (32 hôtes)
+    /26 : 255.255.255.192 (64 hôtes)
+    /25 : 255.255.255.128 (128 hôtes)
+    /24 : 255.255.255.0 (256 hôtes)
+    /23 : 255.255.254.0 (512 hôtes)
+    /22 : 255.255.252.0 (1024 hôtes)
+    /21 : 255.255.248.0 (2048 hôtes)
+    /20 : 255.255.240.0 (4096 hôtes)
+    /19 : 255.255.224.0 (8192 hôtes)
+    /18 : 255.255.192.0 (16384 hôtes)
+    /17 : 255.255.128.0 (32768 hôtes)
+    /16 : 255.255.0.0 (65536 hôtes)
+    /15 : 255.254.0.0 (131072 hôtes)
+    /14 : 255.252.0.0 (262144 hôtes)
+    /13 : 255.248.0.0 (524288 hôtes)
+    /12 : 255.240.0.0 (1048576 hôtes)
+    /11 : 255.224.0.0 (2097152 hôtes)
+    /10 : 255.192.0.0 (4194304 hôtes)
+    /9 : 255.128.0.0 (8388608 hôtes)
+    /8 : 255.0.0.0 (16777216 hôtes)
+
+Chaque "slash" suivi d'un nombre indique combien de bits du masque de sous-réseau sont définis sur 1.
+Plus le nombre après le slash est élevé, plus le nombre d'hôtes dans le sous-réseau est petit.
 ```
 
 ### Adresse IP
