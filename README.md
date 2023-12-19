@@ -1,25 +1,25 @@
 # 42-Netpractice
 
-## TCP/IP
+### TCP/IP
 ```
 Ensemble de protocoles de communication utilisé pour interconnecter des appareils sur Internet.
 TCP (Transmission Control Protocol) assure la livraison fiable des données.
 IP (Internet Protocol) gère l'acheminement des paquets de données.
 ```
 
-## Masque sous-reseau
+### Masque sous-reseau
 ```
 Définit la taille d'un réseau et séparent l'adresse IP en réseau et en partie hôte.
 Cela aide à organiser un grand réseau en plus petits sous-réseaux pour améliorer la gestion et la sécurité.
 ```
 
-## CIDR(Classless Inter-Domain Routing)
+### CIDR(Classless Inter-Domain Routing)
 ```
 Méthode pour allouer des adresses IP et router les messages.
 Remplace l'ancien système de classes d'adresses IP, permettant une allocation plus flexible et efficace des adresses IP.
 ```
 
-## Adresse IP
+### Adresse IP
 ```
 Numéro unique attribué à chaque appareil sur un réseau.
 Fonctionne comme une adresse postale, permettant de localiser et d'identifier les appareils sur le réseau.
@@ -34,7 +34,7 @@ Voici les plages :
     192.168.0.0 à 192.168.255.255 : Couramment utilisée dans les réseaux domestiques et les petites entreprises.
 ```
 
-## Trouver l'adresse reseau
+### Trouver l'adresse reseau
 ```
     Exemple 1 :
         Adresse IP : 192.168.100.14
@@ -46,6 +46,31 @@ Voici les plages :
         Masque de sous-réseau : 255.255.0.0 (en binaire : 11111111.11111111.00000000.00000000)
         L'adresse réseau sera 10.0.0.0, car les 16 derniers bits (partie hôte) sont mis à zéro.
 
-Dans ces exemples, l'opération de "ET logique" entre l'adresse IP et le masque de sous-réseau détermine quelle partie de l'adresse IP
-appartient au réseau et met les autres bits (de la partie hôte) à zéro pour obtenir l'adresse réseau.
+Dans ces exemples, l'opération de "ET logique" entre l'adresse IP et le masque de sous-réseau détermine
+quelle partie de l'adresse IP appartient au réseau et met les autres bits (de la partie hôte) à zéro
+pour obtenir l'adresse réseau.
+```
+
+### Switch
+```
+Appareil de réseau utilisé pour connecter plusieurs appareils dans un réseau local (LAN).
+Reçoit des paquets de données d'un appareil et les transmet uniquement à l'appareil de destination,
+améliorant ainsi l'efficacité et la sécurité du réseau.
+```
+
+### Routeur
+```
+Dispositif de réseau qui connecte plusieurs réseaux, typiquement un réseau local (LAN)
+et un réseau étendu (WAN) comme Internet.
+Dirige le trafic de données en déterminant le meilleur chemin pour chaque paquet de données, grâce à des tables de routage.
+Joue un rôle crucial dans le transfert de données entre différents réseaux et assure la sécurité en filtrant le trafic.
+Peut également attribuer des adresses IP locales aux appareils du réseau.
+```
+
+### Table de routage
+```
+Ensemble de règles dans un routeur qui détermine le chemin le plus approprié pour acheminer les paquets de données vers leur destination.
+Chaque entrée de la table de routage contient au moins la destination (souvent une plage d'adresses IP), le masque de sous-réseau,
+la passerelle (le prochain saut vers la destination), et parfois l'interface réseau à utiliser.
+La table de routage est utilisée pour décider si un paquet doit être envoyé à un autre réseau ou s'il appartient au réseau local.
 ```
