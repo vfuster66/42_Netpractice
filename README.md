@@ -1,5 +1,7 @@
 # 42-Netpractice
 
+![100](https://github.com/vfuster66/42-Netpractice/assets/124174795/b29c6ada-f67f-4d46-bc9b-fed638be4507)
+
 ### TCP/IP
 ```
 Ensemble de protocoles de communication utilisé pour interconnecter des appareils sur Internet.
