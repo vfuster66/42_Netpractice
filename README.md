@@ -1,6 +1,6 @@
-# 42-Netpractice
+# 42_Netpractice
 
-![100](https://github.com/vfuster66/42-Netpractice/assets/124174795/b29c6ada-f67f-4d46-bc9b-fed638be4507)
+[![vfuster-'s 42 NetPractice Score](https://badge42.coday.fr/api/v2/cltpx5zqv531101p4bte37ts1/project/3450859)](https://github.com/Coday-meric/badge42)
 
 ### TCP/IP
 ```
