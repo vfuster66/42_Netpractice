@@ -1,6 +1,6 @@
 # 42_Netpractice
 
-[![vfuster-'s 42 NetPractice Score](https://badge42.coday.fr/api/v2/cltpx5zqv531101p4bte37ts1/project/3450859)](https://github.com/Coday-meric/badge42)
+✅ Validé à 100% le 19 décembre 2023
 
 ### TCP/IP
 ```
